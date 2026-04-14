@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: jastrip-id
+    env: docker
+    plan: free
+    buildCommand: "composer install"
+    startCommand: "php artisan serve --host=0.0.0.0 --port=$PORT"
