@@ -1,0 +1,2 @@
+# jastrip.id
+Web
